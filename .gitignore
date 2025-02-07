@@ -1,0 +1,29 @@
+# Compiled object files
+*.o
+*.obj
+*.exe
+
+# Temporary files
+*~
+.#*
+*.tmp
+
+# IDE files
+.idea/
+.vscode/
+
+# Log files
+*.log
+
+# Sensitive information (never commit these!)
+config.ini
+passwords.txt
+
+# Node.js dependencies
+node_modules/
+
+#Package-lock.json
+package-lock.json
+
+#environment variables
+.env 
