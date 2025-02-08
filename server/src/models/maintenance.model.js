@@ -7,7 +7,8 @@ const MaintenanceSchema = new mongoose.Schema({
     status: { type: String, enum: ["Pending", "Completed"], default: "Pending" },
     cost: { type: Number },
     notes: { type: String },
-    createdAt: { type: Date, default: Date.now }
+    createdAt: { type: Date, default: Date.now },
+    email: { type: String, required:true }
 });
 
 const Maintenance=mongoose.model("Maintenance", MaintenanceSchema);
