@@ -1,5 +1,6 @@
 require("dotenv").config()
-const google =require('googleapis')
+const { google } = require('googleapis');
+
 
 //google calender setup
 // Provide the required configuration
@@ -33,14 +34,14 @@ exports.insertEvent = async (event) => {
         });
 
         if (response.status === 200 && response.statusText === 'OK') {
-            console.log('Event created successfully.');
+            //console.log('Event created successfully.');
             return 1;
         } else {
-            console.log('Failed to create event.');
+            //console.log('Failed to create event.');
             return 0;
         }
     } catch (error) {
-        console.error(`Error at insertEvent --> ${error}`);
+        //console.error(`Error at insertEvent --> ${error}`);
         return 0;
     }
 };
