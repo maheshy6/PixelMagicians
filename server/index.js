@@ -11,6 +11,7 @@ app.use(cors());
 app.get('/', (req, res) => {
     res.send('<h1>Welcome to our server side.</h1>');
 });
+
 //routes
 app.use("/api/auth", require("./src/routers/authRoutes.router.js"));
 app.use("/api/vehicles", require("./src/routers/vehicleRoutes.router"));
