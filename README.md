@@ -1,14 +1,14 @@
 # Fleet Management Pro
 
 ## Introduction
-A brief introduction of your project goes here. You may want to cover the purpose of your project, its core functionality, and what problems it solves.
+We are making Logistics and journey easy by Fleet Management Pro. It is handeling different kind of vehicles in one place. It checks traffic using real time API's. 
 
 ## Project Type
 Frontend | Backend | Fullstack
 
 ## Deplolyed App
-Frontend: https://deployed-site.whatever
-Backend: https://deployed-site.whatever
+Frontend: [React+Vite+TS](https://67a988a85c17bbeeff1a1d67--splendid-dolphin-ec07a7.netlify.app/)
+Backend: [https://deployed-site.whatever](https://fleetmanager-2.onrender.com/api/maintenance)
 Database: https://deployed-site.whatever
 
 ## Directory Structure
